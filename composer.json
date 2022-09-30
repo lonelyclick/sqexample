@@ -1,0 +1,26 @@
+{
+    "name": "yueying/sqexample",
+    "autoload": {
+        "psr-4": {
+            "Yueying\\Sqexample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lonelyclick",
+            "email": "lonelyclick@163.com"
+        }
+    ],
+    "require": {
+        "suqunsq/ppu": "^1.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    },
+    "scripts": {
+        "dev": "php src/index.php"
+    }
+}
